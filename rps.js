@@ -1,7 +1,9 @@
 console.log("Hello World");
 
+let compChoice = getComputerChoice();
+
 for (let i=0; i < 10; i++){
-    console.log(getComputerChoice);
+    console.log(compChoice);
 }
 
 const Options = {
