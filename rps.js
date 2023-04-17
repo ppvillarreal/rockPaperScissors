@@ -1,16 +1,16 @@
 console.log("Hello World");
 
-let compChoice = getComputerChoice();
-
-for (let i=0; i < 10; i++){
-    console.log(compChoice);
-}
-
 const Options = {
 	Rock: Symbol("rock"),
 	Paper: Symbol("paper"),
 	Scissors: Symbol("scissors"),
 };
+
+let compChoice = getComputerChoice();
+
+for (let i=0; i < 10; i++){
+    console.log(compChoice);
+}
 
 function randomIntFromInterval(min, max) { // min and max included 
   return Math.floor(Math.random() * (max - min + 1) + min);
