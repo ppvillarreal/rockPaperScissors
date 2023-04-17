@@ -6,9 +6,10 @@ const Options = {
 	Scissors: Symbol("scissors"),
 };
 
-let compChoice = getComputerChoice();
+let compChoice;
 
 for (let i=0; i < 10; i++){
+    compChoice = getComputerChoice();
     console.log(compChoice);
 }
 
